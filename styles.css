@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(Digitalclockbg.jpg);
+  background-size: cover;
+}
+
+.clock {
+  display: flex;
+  font-family: 'Arial', sans-serif;
+  font-size: 5em;
+}
+
+.time {
+  padding: 0.2em;
+  border-radius: 5px;
+  background-color: #fcf5f5;
+  color: #d59653;
+  margin: 0 0.2em;
+}
+
+.time-separator {
+  margin: 0 0.1em;
+}
